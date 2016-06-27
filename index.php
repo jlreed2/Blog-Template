@@ -2,7 +2,7 @@
 
 <!--Begin Section Container -->
 <section class="row">
-    <div class="twelve columns">
+    <div class="nine columns">
         <!--Begin Loop-->
         <?php
             if ( have_posts()) {
@@ -21,6 +21,9 @@
             }
         ?>
         <!--End Loop-->
+    </div>
+    <div class="three columns">
+        
     </div>
 </section>
 
