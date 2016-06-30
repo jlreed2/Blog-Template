@@ -5,6 +5,9 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
     
+    <!-- Links to google fonts El Messiri & Poiret One -->
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri|Poiret+One" rel="stylesheet">
+    
     <!-- Links to our Style.css file -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 </head>
@@ -13,9 +16,9 @@
     
         <header class="row">
             <div class="twelve columns">
-                <h1><a href="<?php $url = home_url('/'); echo $url; ?>">
+                <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url; ?>">
                     <?php bloginfo('name'); ?></a></h1>
-                <h2><?php bloginfo('description'); ?></h2>
+                <h2 class="sub-title"><?php bloginfo('description'); ?></h2>
             </div>
         </header>
         <div class="row">
