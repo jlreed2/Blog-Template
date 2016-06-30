@@ -18,6 +18,7 @@ html, body{
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'El Messiri', sans-serif;
     color: #000000;
     font-weight: 700;
 }
@@ -46,8 +47,9 @@ a{
 /*--- Menu --- */
 
 .blank-menu-header {
+    font-family: 'El Messiri', sans-serif;
     text-align: left;
-    margin-top: 40px;
+    margin: 10px 0;
 }
 .blank-menu-header ul {
     margin: 0; 
@@ -59,22 +61,25 @@ a{
     display: inline;
 }
 .blank-menu-header ul li a {
-    text-decoration:none;  
-    margin: 4px;
-    padding: 5px 0px 5px 40px; 
-    font-weight: 300;
-    font-size: 1.1rem;
+    text-decoration: none;  
+    margin: 5px;
+    padding: 0px 5px 0px 0px; 
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #ffffff;
+}
+
+.current-menu-item a {
+    color: #ffffff;
 }
 
 /*--HEADER--*/
 h1.site-title {
-    font-family: 'El Messiri', sans-serif;
     font-size: 2.5rem;
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0;
 }
 
 h1.site-title a {
@@ -84,4 +89,6 @@ h1.site-title a {
 h2.sub-title {
     font-size: 1.75rem;
     font-weight: 500;
+    margin-bottom: 0;
 }
+
