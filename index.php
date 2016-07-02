@@ -27,7 +27,7 @@
         <!--End Loop-->
     </div>
     <div class="three columns">
-        <h3>Side Crap</h3>
+        <?php get_sidebar(); ?>
     </div>
 </section>
 
