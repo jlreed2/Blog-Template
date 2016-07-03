@@ -12,6 +12,7 @@ Text Domain: jennifer_reed_blog_site
 @import url("stylesheets/skeleton.css");
 
 html, body{
+    background-color: #c6c9cc;
     color: #000000;
     font-size: 14px;
     line-height: 16px;
@@ -73,6 +74,37 @@ a{
 
 .current-menu-item a {
     color: #ffffff;
+}
+
+header {
+    background-color: #3FBAC2;
+}
+
+#fb {
+	background-image: url(images/fb.png);
+	background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+	padding: 0px 4px;
+	float: right;
+}
+
+#in {
+	background-image: url(images/linkedin.png);
+	background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+	padding: 0px 4px;
+	float: right;
+}
+
+#git {
+	background-image: url(images/github.png);
+	background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+	padding: 0px 4px;
+	float: right;
 }
 
 /*--HEADER--*/
