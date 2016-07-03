@@ -4,13 +4,13 @@
 function blank_widgets_init() {
     /*--SIDEBAR WIDGET---*/
     register_sidebar( array(
-        'name'          => ('First Widget'),
-        'id'            => 'first-widget',
-        'description'   => 'Widget for our sidebar on pages', 
-        'before_widget' => '<div class="widget-sidebar">', 
+        'name'          => ('Index Sidebar Widget'),
+        'id'            => 'index-sidebar-widget',
+        'description'   => 'Widget for our sidebar on index', 
+        'before_widget' => '<div class="widget-index-sidebar">', 
         'after_widget'  => '</div>',
-        'before_title'  => '<h2>',
-        'after_title'   => '</h2>'                        
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'                        
     ));
     /*--FIRST FOOTER WIDGET---*/
     register_sidebar( array(

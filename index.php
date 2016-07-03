@@ -42,7 +42,7 @@
         <!--End Loop-->
     </div>
     <div class="three columns">
-        <?php get_sidebar(); ?>
+        <?php dynamic_sidebar('index-sidebar-widget'); ?>
     </div>
 </section>
 
