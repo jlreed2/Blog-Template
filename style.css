@@ -126,3 +126,12 @@ h2.sub-title {
 
 /*--INDEX--*/
 .index-thumbnail img
+
+.row.post {
+    background-color: #ffffff;
+}
+
+/*--SIDEBAR--*/
+.rt_side {
+    background-color: #756C93;
+}
