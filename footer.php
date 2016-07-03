@@ -1,9 +1,9 @@
     <footer class="row">
         <div class="nine columns">
-            <h3>Left</h3>
+            <h4>&copy; copyright Jennifer Reed 2016</h4>
         </div>
         <div class="three columns">
-            <h3>Right</h3>
+            <h4>search</h4>
         </div>
     </footer>
 

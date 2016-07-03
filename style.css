@@ -125,8 +125,12 @@ h2.sub-title {
 }
 
 /*--INDEX--*/
-.index-thumbnail img
-
+.index-thumbnail {
+    margin-left: 2px;
+}
+.excerpt {
+    margin-left: 5px;
+}
 .row.post {
     background-color: #ffffff;
 }
