@@ -3,7 +3,7 @@
             <h4>&copy; copyright Jennifer Reed 2016</h4>
         </div>
         <div class="three columns">
-            <h4>search</h4>
+            <?php dynamic_sidebar('footer-right'); ?>
         </div>
     </footer>
 
