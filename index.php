@@ -10,6 +10,7 @@
                 the_post(); ?>
                 <div class="row primary">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <h5><?php the_time('F jS, Y') ?></h5>
                         <div class="three columns index-thumbnail">
                             <?php if ( has_post_thumbnail() ) { ?>
                                 <?php the_post_thumbnail('thumbnail'); ?>
@@ -31,19 +32,19 @@
                 <?php if ( has_post_thumbnail() ) { ?>
                     <?php the_post_thumbnail('thumbnail'); }?>
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                <p>date</p>
+                <h5><?php the_time('F jS, Y') ?></h5>
             </div>
             <div class="four columns  secondary">
                 <?php if ( has_post_thumbnail() ) { ?>
                     <?php the_post_thumbnail('thumbnail'); }?>
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-
+                <h5><?php the_time('F jS, Y') ?></h5>
             </div>
             <div class="four columns  secondary">
                 <?php if ( has_post_thumbnail() ) { ?>
                     <?php the_post_thumbnail('thumbnail'); }?>
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-
+                <h5><?php the_time('F jS, Y') ?></h5>
             </div>
         </div>
     </div>
