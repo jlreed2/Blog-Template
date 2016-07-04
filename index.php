@@ -5,7 +5,16 @@
     <div class="nine columns">
 
         <!--Begin Loop-->
+        <?php $FirstPost = True; ?>
         <?php if ( have_posts() ) {
+        //For only first post - Replace while statement with:
+            //<?php
+                //if ($FirstPost) {
+                //echo ('<div class="post firstpost">');
+                //$FirstPost = False;
+                //} else {
+                //echo ('<div class="post">');
+                //}
             while ( have_posts() ) {
                 the_post(); ?>
                 <div class="row primary">
