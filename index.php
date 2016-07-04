@@ -18,7 +18,7 @@
                         <?php } ?>
                         <div class="nine columns excerpt">
                             <?php the_excerpt(); ?>
-                            <a class="cont" href="<?php the_permalink(); ?>">Continue Reading...</a>
+                            <a class="continue" href="<?php the_permalink(); ?>">Continue Reading...</a>
                         </div>
                 </div>
             <?php
@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <div class="three columns ">
+    <div class="three columns sidebar">
         <?php get_sidebar(); ?>
     </div>
 </section>
