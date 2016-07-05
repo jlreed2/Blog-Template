@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- BEGIN SECTION PHP -->
     <section class="row">
-        <div class="nine columns">
+        <div class="nine columns primary">
             <!-- BEGIN LOOP -->
             <?php 
                 if (have_posts()) {

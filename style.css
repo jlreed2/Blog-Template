@@ -170,11 +170,11 @@ a.continue {
 }
 
 /*--SIDEBAR--*/
+.three.columns {
+    margin-left: 2%; 
+}
 .three.columns.sidebar {
     width: 25%;
-}
-.sidebar {
-    margin-left: 5px;
 }
 
 .widget-index-sidebar {
@@ -188,4 +188,15 @@ a.continue {
 /*--FOOTER--*/
 footer {
     background-color: #3FBAC2;
+}
+
+.searchform {
+    margin: .5em;
+}
+#s {
+    height: 2%;
+}
+#searchsubmit {
+    height: 25px;
+    line-height: normal;
 }
