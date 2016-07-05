@@ -17,7 +17,7 @@
             ?>
             <!-- END LOOP -->
         </div>
-        <div class="three columns">
+        <div class="three columns rt_side">
             <?php get_sidebar(); ?>
         </div>
     </section>

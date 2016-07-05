@@ -145,6 +145,7 @@ h2.sub-title {
 .index-thumbnail {
     margin-left: 2px;
 }
+
 .excerpt {
     margin-left: 1em;
 }
@@ -170,11 +171,14 @@ a.continue {
 }
 
 /*--SIDEBAR--*/
-.three.columns {
-    margin-left: 2%; 
-}
 .three.columns.sidebar {
     width: 25%;
+    margin-left: 0; 
+}
+
+.three.columns.rt_side {
+    width: 24%;
+    margin-left: 0; 
 }
 
 .widget-index-sidebar {
@@ -190,13 +194,20 @@ footer {
     background-color: #3FBAC2;
 }
 
+.three.columns.search {
+    margin-left: 1em; 
+} 
+
 .searchform {
     margin: .5em;
 }
 #s {
     height: 2%;
+    margin-bottom: 5px;
 }
+
 #searchsubmit {
     height: 25px;
     line-height: normal;
+    margin-bottom: 5px;
 }
