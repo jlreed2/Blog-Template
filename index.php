@@ -15,8 +15,12 @@
                 //} else {
                 //echo ('<div class="post">');
                 //}
-            while ( have_posts() ) {
-                the_post(); ?>
+            if ($FirstPost) {
+                echo ('<div class="post firstpost">');
+                } else {
+                $FirstPost = False;
+                echo ('<div class="post">');
+            } ?>
                 <div class="row primary">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     <h5><?php the_time('F jS, Y') ?></h5>
@@ -32,7 +36,6 @@
                 </div>
             <?php
             }
-        }
         ?>
         <!--End Loop-->
         
