@@ -7,20 +7,8 @@
         <!--Begin Loop-->
         <?php $FirstPost = True; ?>
         <?php if ( have_posts() ) {
-        //For only first post - Replace while statement with:
-            //<?php
-                //if ($FirstPost) {
-                //echo ('<div class="post firstpost">');
-                //$FirstPost = False;
-                //} else {
-                //echo ('<div class="post">');
-                //}
-            if ($FirstPost) {
-                echo ('<div class="post firstpost">');
-                } else {
-                $FirstPost = False;
-                echo ('<div class="post">');
-            } ?>
+            while ( have_posts() ) {
+                the_post(); ?>
                 <div class="row primary">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     <h5><?php the_time('F jS, Y') ?></h5>
@@ -36,6 +24,7 @@
                 </div>
             <?php
             }
+        }
         ?>
         <!--End Loop-->
         
