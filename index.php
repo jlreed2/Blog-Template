@@ -5,10 +5,11 @@
     <div class="nine columns">
 
         <!--Begin Loop-->
-        <?php $FirstPost = True; ?>
         <?php if ( have_posts() ) {
             while ( have_posts() ) {
-                the_post(); ?>
+                the_post(); 
+                $loopcounter++;
+                if ($loopcounter == 1) { ?>
                 <div class="row primary">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     <h5><?php the_time('F jS, Y') ?></h5>
@@ -25,6 +26,7 @@
             <?php
             }
         }
+    }
         ?>
         <!--End Loop-->
         
