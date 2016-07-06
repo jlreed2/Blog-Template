@@ -136,7 +136,7 @@ h2.sub-title {
 
 /*--INDEX--*/
 .primary {
-    margin: .75em;
+    margin: .75em .75em .75em 0;
     padding: 5px;
     background-color: #ffffff;
     box-shadow: 5px 5px 3px #888888;
@@ -182,7 +182,7 @@ a.continue {
 }
 
 .widget-index-sidebar {
-    margin: 1em;
+    margin: .75em 0;
     padding: 5px;
     background-color: #756C93;
     box-shadow: 5px 5px 3px #888888;
