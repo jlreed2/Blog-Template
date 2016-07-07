@@ -164,10 +164,30 @@ a.continue {
 }
 
 .secondary{
-    margin: .75em;
+    margin: 0 .75em .75em 0;
     padding: 5px;
+    min-height: 255px;
     background-color: #ffffff;
     box-shadow: 5px 5px 3px #888888;
+}
+
+.secondary img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondary h4 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.secondary h5 {
+    text-align: center;
+}
+
+.secondary a:hover {
+    color: #756C93;
 }
 
 /*--SIDEBAR--*/
@@ -184,9 +204,17 @@ a.continue {
 .widget-index-sidebar {
     margin: .75em 0;
     padding: 5px;
+    text-align: center;
     background-color: #756C93;
     box-shadow: 5px 5px 3px #888888;
+}
 
+.widget-index-sidebar p {
+    margin-bottom: .5rem;
+}
+
+.widget-index-sidebar a:hover {
+    color: #ffffff; 
 }
 
 /*--FOOTER--*/
